@@ -1,0 +1,24 @@
+:root {
+	--background: #080B12;
+
+	--surface: #101622;
+	--surface-alt: #172033;
+
+	--main-color: #6C63FF;
+	--main-color-light: #00BFFF;
+
+	--font-focused: #F1F5FF;
+	--font-unfocused: #94A3B8;
+}
+
+* {
+	font-family: "Inter", sans-serif;
+}
+
+body {
+  /*  Self  */
+  background-color: var(--background);
+
+  /*  Content */
+  color: var(--font-focused);
+}
