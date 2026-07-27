@@ -3,13 +3,14 @@ import { createNadeCard } from "./components/nadeCard.js";
 import { getNades } from "./api/nades.js";
 
 let container;
+let filters;
 
 export function initApp() {
     container = document.querySelector("#nades");
 
-    let filters = {
-    map: "",
-    type: ""
+    filters = {
+        map: "",
+        type: ""
     };
 }
 export async function render() {
