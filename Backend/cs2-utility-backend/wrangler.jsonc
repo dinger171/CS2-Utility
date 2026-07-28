@@ -1,0 +1,24 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cs2-utility-backend",
+  "main": "src/index.js",
+  "compatibility_date": "2026-07-28",
+
+  "observability": {
+    "enabled": true
+  },
+
+  "upload_source_maps": true,
+
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "cs2-nades",
+      "database_id": "429c4013-5067-4e0a-a9f1-87845777aee3"
+    }
+  ]
+}
